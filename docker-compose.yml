@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  backend:
+    build: "src"
+    ports:
+      - "5000:5000"
+    image: deployment:latest
+    environment:
+      - test=1
+      - FLASK_ENV=development
+      - FLASK_DEBUG=1
+      - PLAN_NAME="test"
+      - USERNAME="test"
+      - PASSWORD="test"
