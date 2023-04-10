@@ -9,6 +9,8 @@ services:
       - test=1
       - FLASK_ENV=development
       - FLASK_DEBUG=1
-      - PLAN_NAME="test"
-      - USERNAME="test"
-      - PASSWORD="test"
+      - PLAN_NAME=test
+      - USERNAME=test
+      - PASSWORD=test
+      - RESOURCE_GROUP=test
+      - SECRET_TOKEN=testtesttest

@@ -10,6 +10,7 @@ psycopg2-binary = "*"
 flask-sqlalchemy = "===3.0.2"
 sqlalchemy = "===1.4.46"
 
+
 [dev-packages]
 
 [requires]
